@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ img {
 }
 
 .footerSocial {
-  margin: 0px 47%;
+  margin: 0px 45%;
 }
 
 /* Media Query: Tablet or Smaller */
@@ -71,5 +71,9 @@ img {
 
   button {
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .footerSocial {
+    margin: 0px 40%;
   }
 }
