@@ -49,6 +49,19 @@ button:disabled {
   filter: brightness(30%);
 }
 
+img {
+  width: 30px;
+}
+
+.footerDesc {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footerSocial {
+  margin: 0px 47%;
+}
+
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
   .container {
